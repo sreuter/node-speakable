@@ -1,5 +1,7 @@
 # node-speakable
 
+Demo video on what you can achieve using node-speakable: https://my.doctape.com/s/NLHn1z
+
 ## Description
 
 **node-speakable** is a continuous speech recognition module for node.js.
