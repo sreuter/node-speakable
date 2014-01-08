@@ -20,7 +20,13 @@ It's pure JavaScript magic... Ok, not yet! Currently node-speakable needs you to
 var Speakable = require('./');
 
 var speakable = new Speakable();
+```
+By default, the language is American English ( 'en-US' ). You can specifiy the language by initiatiling Speakable with a language string:
+```javascript
+var speakable = new Speakable('it-IT');
+```
 
+```javascript
 speakable.on('speechStart', function() {
   console.log('onSpeechStart');
 });
