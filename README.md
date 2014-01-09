@@ -21,9 +21,10 @@ var Speakable = require('./');
 
 var speakable = new Speakable();
 ```
-By default, the language is American English ( 'en-US' ). You can specifiy the language by initiatiling Speakable with a language string:
+By default, the language is American English ( 'en-US' ), but you can specify another language in the options.
+Example usage:
 ```javascript
-var speakable = new Speakable('it-IT');
+var speakable = new Speakable({lang: 'it-IT'});
 ```
 
 ```javascript
