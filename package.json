@@ -1,0 +1,15 @@
+{
+    "name": "node-speakable",
+    "description": "A continuous speech recognition module for node.js.",
+    "author": {
+      "name": "Sascha Reuter",
+      "email": "sascha@tape.io"
+    },
+    "contributors": [
+      {
+        "name":"Vittorio Banfi",
+        "email":"vittorio.banfi@gmail.com"
+      }
+    ],
+    "version":"0.1.0"
+}
