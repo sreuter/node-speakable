@@ -1,4 +1,4 @@
-var Speakable = require('./lib/node-speakable');
+var Speakable = require('./');
 
 // Setup google speech
 var speakable = new Speakable();
