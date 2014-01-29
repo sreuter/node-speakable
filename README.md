@@ -6,7 +6,7 @@ Demo video on what you can achieve using node-speakable: https://my.doctape.com/
 
 **node-speakable** is a continuous speech recognition module for node.js.
 
-Basically, **node-speakable** is continuous waiting for you to say something and waits until you finally stopped talking. It then emits an ```speechResult``` event with an ```Array()``` including of your ```spokenWords```. You can then ```.indexOf()``` the array to trigger some awesome action to happen, like turning on your ```Philips Hue``` lights.
+Basically, **node-speakable** is continuous waiting for you to say something and waits until you finally stopped talking. It then emits an ```speechResult``` event with an ```Array()``` including of your ```recognizedWords```. You can then ```.indexOf()``` the array to trigger some awesome action to happen, like turning on your ```Philips Hue``` lights.
 
 If you ever talked to your XBOX360 (kinect) you're already familiar on how a continuous speech recognition system works for you.
 
@@ -57,7 +57,7 @@ speakable.recordVoice();
 
 ## License
 
-Speakable is licensed under the MIT license.
+**node-speakable** is licensed under the MIT license.
 
 ## Todo / Ideas
 
