@@ -1,5 +1,5 @@
 {
-    "name": "node-speakable",
+    "name": "speakable",
     "description": "A continuous speech recognition module for node.js.",
     "author": {
       "name": "Sascha Reuter",
