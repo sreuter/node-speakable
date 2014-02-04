@@ -12,12 +12,12 @@ If you ever talked to your XBOX360 (kinect) you're already familiar on how a con
 
 ## How
 
-It's pure JavaScript magic... Ok, not yet! Currently node-speakable needs you to put a binary of ```sox``` into the modules folder to do the recording. The actual voice recognition is then achieved trough a POST to the the Google Speech API.
+It's pure JavaScript magic... Ok, not yet! Currently node-speakable needs you to __put a binary of ```sox```__ into the modules (into lib) folder to do the recording. The actual voice recognition is then achieved trough a POST to the the Google Speech API.
 
 ## Example usage (node example.js)
 
 ```javascript
-var Speakable = require('./');
+var Speakable = require('speakable');
 
 var speakable = new Speakable();
 ```
