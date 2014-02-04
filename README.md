@@ -17,7 +17,7 @@ It's pure JavaScript magic... Ok, not yet! Currently node-speakable needs you to
 ## Example usage (node example.js)
 
 ```javascript
-var Speakable = require('speakable');
+var Speakable = require('./');
 
 var speakable = new Speakable();
 ```
