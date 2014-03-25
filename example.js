@@ -9,6 +9,7 @@ speakable.on('speechStart', function() {
 
 speakable.on('speechStop', function() {
   console.log('onSpeechStop');
+  speakable.recordVoice();
 });
 
 speakable.on('speechReady', function() {
@@ -24,7 +25,6 @@ speakable.on('error', function(err) {
 speakable.on('speechResult', function(spokenWords) {
   console.log('onSpeechResult:')
   console.log(spokenWords);
-  speakable.recordVoice();
 });
 
 speakable.recordVoice();
