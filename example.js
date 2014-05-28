@@ -1,7 +1,8 @@
 var Speakable = require('./');
+var API_KEY = process.env.GKEY;
 
 // Setup google speech
-var speakable = new Speakable();
+var speakable = new Speakable({key: API_KEY});
 
 speakable.on('speechStart', function() {
   console.log('onSpeechStart');

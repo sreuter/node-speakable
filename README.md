@@ -19,12 +19,12 @@ It's pure JavaScript magic... Ok, not yet! Currently node-speakable needs you to
 ```javascript
 var Speakable = require('./');
 
-var speakable = new Speakable();
+var speakable = new Speakable({key: 'your-google-API-key'});
 ```
 By default, the language is American English ( 'en-US' ), but you can specify another language in the options.
 Example usage:
 ```javascript
-var speakable = new Speakable({lang: 'it-IT'});
+var speakable = new Speakable({key: 'your-google-API-key'}, {lang: 'it-IT'});
 ```
 
 ```javascript
