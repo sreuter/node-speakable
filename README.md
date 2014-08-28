@@ -14,17 +14,21 @@ If you ever talked to your XBOX360 (kinect) you're already familiar on how a con
 
 It's pure JavaScript magic... Ok, not yet! Currently node-speakable needs you to __put a binary of ```sox```__ into the modules (into lib) folder to do the recording. The actual voice recognition is then achieved trough a POST to the the Google Speech API.
 
+## Setup
+
+You'll need to ensure that you turn the Google Speech API selection to 'ON' in the API Console. If you don't see it there, you might want to check out this first: http://www.chromium.org/developers/how-tos/api-keys. For the example project, you'll also need to set the environment variable GKEY in your shell to your API key.
+
 ## Example usage (node example.js)
 
 ```javascript
 var Speakable = require('./');
 
-var speakable = new Speakable();
+var speakable = new Speakable({key: 'your-google-API-key'});
 ```
 By default, the language is American English ( 'en-US' ), but you can specify another language in the options.
 Example usage:
 ```javascript
-var speakable = new Speakable({lang: 'it-IT'});
+var speakable = new Speakable({key: 'your-google-API-key'}, {lang: 'it-IT'});
 ```
 
 ```javascript
