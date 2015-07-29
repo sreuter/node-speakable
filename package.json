@@ -11,5 +11,9 @@
         "email":"vittorio.banfi@gmail.com"
       }
     ],
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/ajay-gandhi/node-speakable.git"
+    },
     "version":"0.3.0"
 }
