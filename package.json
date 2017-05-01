@@ -5,11 +5,16 @@
       "name": "Sascha Reuter",
       "email": "sascha@tape.io"
     },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sreuter/node-speakable.git"
+    },
     "contributors": [
       {
         "name":"Vittorio Banfi",
         "email":"vittorio.banfi@gmail.com"
       }
     ],
-    "version":"0.3.0"
+    "version":"0.4.0",
+    "homepage": "https://github.com/sreuter/node-speakable#readme"
 }
